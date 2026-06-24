@@ -1,94 +1,180 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # 🤖 AI Object Detection
 
-Real-time Object Detection using React.js and TensorFlow.js.
+A modern real-time Object Detection Web Application built using React.js, TensorFlow.js, and the COCO-SSD model. The application uses a webcam feed to detect and classify objects in real time, displaying bounding boxes and confidence scores with an interactive AI-themed dashboard.
 
-## Dashboard Preview
+---
+
+## 📸 Project Preview
+
+### Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
-## Object Detection Demo
+### Object Detection Demo
 
 ![Detection Demo](screenshots/detection-demo.png)
 
-## Features
+---
 
-- Real-time webcam detection
-- COCO-SSD object detection
-- Confidence score visualization
-- Modern AI-themed UI
-- TensorFlow.js integration
+## 🚀 Features
 
-## Tech Stack
+* Real-time Object Detection using Webcam
+* COCO-SSD Deep Learning Model Integration
+* Bounding Box Visualization
+* Confidence Score Display
+* Interactive AI Dashboard UI
+* TensorFlow.js Browser-Based Inference
+* Live Detection Status Indicator
+* Responsive and Modern Interface
 
-- React.js
-- TensorFlow.js
-- COCO-SSD
-- JavaScript
-- HTML/CSS
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
 
-### `yarn start`
+### Frontend
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Machine Learning
 
-### `yarn test`
+* TensorFlow.js
+* COCO-SSD Object Detection Model
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Additional Libraries
 
-### `yarn build`
+* React Webcam
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+AI-Object-Detection/
+│
+├── public/
+│
+├── screenshots/
+│   ├── dashboard.png
+│   └── detection-demo.png
+│
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── utilities.js
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙️ Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Clone Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+git clone https://github.com/your-username/AI-Object-Detection.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Navigate to Project Directory
 
-## Learn More
+```bash
+cd AI-Object-Detection
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### Start Development Server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+The application will run at:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```text
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 🧠 How It Works
 
-### Advanced Configuration
+1. Webcam captures live video feed.
+2. TensorFlow.js loads the COCO-SSD model.
+3. The model analyzes each frame.
+4. Detected objects are classified.
+5. Bounding boxes and confidence scores are drawn on the canvas.
+6. Results are displayed in real time on the dashboard.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+---
 
-### Deployment
+## 🎯 Example Detections
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+The model can detect objects such as:
 
-### `yarn build` fails to minify
+* Person
+* Bottle
+* Chair
+* Laptop
+* Keyboard
+* Mouse
+* Cell Phone
+* Book
+* Backpack
+* Cup
+* Monitor
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+and many more objects from the COCO dataset.
+
+---
+
+## 🔮 Future Improvements
+
+* YOLOv8 Integration
+* Object Counting
+* FPS Counter
+* Detection History
+* Face Detection
+* Custom Model Training
+* Performance Optimization
+* Detection Analytics Dashboard
+
+---
+
+## 📷 Screenshots
+
+### Main Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Live Object Detection
+
+![Detection Demo](screenshots/detection-demo.png)
+
+---
+
+## 👨‍💻 Author
+
+**Kartikey Gupta**
+
+MCA Student | AI & Full Stack Development Enthusiast
+
+GitHub: https://github.com/Kartikey-kg
+
+LinkedIn: https://www.linkedin.com/in/kartikey-gupta-74b5b02a0/
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐ on GitHub.
