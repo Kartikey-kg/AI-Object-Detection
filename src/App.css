@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, #081229, #030712);
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  color: white;
+}
+
+/* Title */
+
+.title-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title-section h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  text-shadow:
+    0 0 10px #00e5ff,
+    0 0 20px #00e5ff,
+    0 0 40px #00e5ff;
+}
+
+.title-section p {
+  color: #cbd5e1;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* Live Badge */
+
+.live-badge {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  background: rgba(0,255,128,0.1);
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+/* Stats */
+
+.stats-container {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stat-card {
+  width: 220px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0,255,255,0.2);
+
+  box-shadow:
+    0 0 15px rgba(0,255,255,0.15);
+}
+
+.stat-card h3 {
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+.stat-card span {
+  color: #00e5ff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Camera */
+
+.camera-wrapper {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
+.webcam,
+.canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 640px;
+  height: 480px;
+
+  border-radius: 20px;
+}
+
+.webcam {
+  border: 3px solid #00e5ff;
+
+  box-shadow:
+    0 0 20px #00e5ff,
+    0 0 50px rgba(0,229,255,0.3);
+}
+
+.canvas {
+  z-index: 999;
+}
+
+/* Detection Status */
+
+.detection-status {
+  margin-top: 35px;
+  padding: 18px 35px;
+
+  border-radius: 15px;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(0,255,255,0.2);
+
+  color: #e2e8f0;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 30px;
+  color: #94a3b8;
+  font-size: 14px;
+}
