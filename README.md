@@ -1,5 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🤖 AI Object Detection
 
+Real-time Object Detection using React.js and TensorFlow.js.
+
+## Dashboard Preview
+
+![Dashboard](screenshots/dashboard.png)
+
+## Object Detection Demo
+
+![Detection Demo](screenshots/detection-demo.png)
+
+## Features
+
+- Real-time webcam detection
+- COCO-SSD object detection
+- Confidence score visualization
+- Modern AI-themed UI
+- TensorFlow.js integration
+
+## Tech Stack
+
+- React.js
+- TensorFlow.js
+- COCO-SSD
+- JavaScript
+- HTML/CSS
 ## Available Scripts
 
 In the project directory, you can run:
